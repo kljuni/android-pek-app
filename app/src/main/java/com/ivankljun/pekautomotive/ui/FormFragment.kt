@@ -29,7 +29,9 @@ class FormFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.btSubmit.setOnClickListener { submitString() }
+        binding.btSubmit.setOnClickListener {
+            submitString()
+        }
     }
 
     override fun onDestroyView() {
